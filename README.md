@@ -1,7 +1,6 @@
 # Bocconi Nuclei Challenge
 
 Bocconi University — Computer Vision and Image Processing  
-Instructor: Prof. Chiara Plizzari · TA: Francesca Pia Panaccione  
 Competition: [Kaggle — MoNuSeg 2026](https://kaggle.com/competitions/mo-nu-seg-2026-cell-nucleus-detection)
 
 Two-task Kaggle competition on nucleus detection and semantic segmentation in H&E-stained histopathology patches, derived from the [MoNuSeg](https://monuseg.grand-challenge.org/) dataset.
