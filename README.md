@@ -1,22 +1,6 @@
 # Bocconi Nuclei Challenge
 
-Bocconi University — Computer Vision and Image Processing  
-Competition: [Kaggle — MoNuSeg 2026](https://kaggle.com/competitions/mo-nu-seg-2026-cell-nucleus-detection)
-
 Two-task Kaggle competition on nucleus detection and semantic segmentation in H&E-stained histopathology patches, derived from the [MoNuSeg](https://monuseg.grand-challenge.org/) dataset.
-
----
-
-## Results
-
-| Task | Place | Kaggle test score | Metric | Val score |
-|---|---|---|---|---|
-| Detection | **1st / ~40** | **0.7957** | F1 @ IoU 0.5 | 0.8296 |
-| Segmentation | **2nd / ~40** | **0.8361** | Mean Dice | 0.8389 |
-
-Kaggle test scores are from the held-out leaderboard evaluation.  
-Val scores are from a slide-level held-out split (see [Design decisions](#design-decisions)).  
-The close val/test gap on segmentation (0.8389 → 0.8361) confirms the slide-level split was not overfit.
 
 ---
 
